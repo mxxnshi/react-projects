@@ -24,13 +24,16 @@ This repository contains a collection of React projects and practice exercises. 
    cd react-projects
 
 2. Navigate to the project folder you want to work on:
-   ```cd first-react-app
+   ``` bash
+   cd first-react-app
 
 3. Install dependencies:
-   ```npm install
+   ``` bash
+   npm install
 
 4. Start the development server:
-   ```npm start
+   ``` bash
+   npm start
 
 5. Open your browser and navigate to http://localhost:3000 to view the project.
    
