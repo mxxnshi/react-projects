@@ -1,4 +1,4 @@
-/*import React from "react";
+import React from "react";
 class Item extends React.Component {
   render() {
     return (<li>
@@ -61,28 +61,28 @@ class App extends React.Component {
   }
 }
 
-export default App;*/
-import React from "react";
-class Title extends React.Component {
-  render(){
-    return (<h1>{this.props.name}</h1>)
-  }
-}
+export default App;
+// import React from "react";
+// class Title extends React.Component {
+//   render(){
+//     return (<h1>{this.props.name}</h1>)
+//   }
+// }
 
-class Header extends React.Component {
-  render (){
-    return (
-      <Title name ={this.props.name}/>
-    )
-  }
-}
+// class Header extends React.Component {
+//   render (){
+//     return (
+//       <Title name ={this.props.name}/>
+//     )
+//   }
+// }
 
-class App extends React.Component {
-  render() {
-    return (
-      <Header name = "App Title"/>
-    )
-  }
-}
+// class App extends React.Component {
+//   render() {
+//     return (
+//       <Header name = "App Title"/>
+//     )
+//   }
+// }
 
-export default App
+// export default App
